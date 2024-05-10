@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+# variables
+config=$HOME/.config/hypr
+scripts=$config/scripts
+
+# notification daemon
+dunst -conf /home/kirill/.config/dunst/dunstrc &
+
+# sww
+swww init &
+swww img $HOME/.config/hypr/wallpapers/extinct-volcano.jpg &
+
+# telegram
+#telegram-desktop -startintray &
+
+# waybar
+waybar &
+
