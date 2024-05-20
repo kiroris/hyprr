@@ -1,2 +1,0 @@
-# hyprr
-asdasdasd
